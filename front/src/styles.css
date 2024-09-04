@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Arial;
+    background-image: url('../../front/public/background.jpg');
+    background-size: cover; 
+    background-position:center center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
