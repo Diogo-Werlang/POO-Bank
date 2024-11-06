@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Investimento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Simulador de Investimento</h2>
+    
+    <!-- Formulário de Simulação -->
+    <form id="simuladorForm">
+      <!-- Campo de Valor de Aporte -->
+      <div class="form-group">
+        <label for="valor">Valor do Aporte (R$):</label>
+        <input type="number" id="valor" name="valor" placeholder="Ex: 1000" required>
+      </div>
+
+      <!-- Campo de Data de Resgate -->
+      <div class="form-group">
+        <label for="dataResgate">Data Estimada de Resgate:</label>
+        <input type="date" id="dataResgate" name="dataResgate" required>
+      </div>
+
+      <!-- Botão para Calcular -->
+      <div class="form-group">
+        <button type="submit">Calcular</button>
+      </div>
+    </form>
+
+    <!-- Resultado da Simulação -->
+    <div id="resultado" class="resultado">
+      <!-- O resultado do cálculo será exibido aqui -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

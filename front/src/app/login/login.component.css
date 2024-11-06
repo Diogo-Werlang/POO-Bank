@@ -1,10 +1,38 @@
 
 .logo1 {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .principal {
     text-align: center;
+
+}
+
+button {
+    width: 30vh;
+    height: 5vh;
+}
+
+.Logintext {
+    font-size: 30px;
+
+}
+
+.formulario__conteudo {
+    width: 30vh;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
 }
 
 

@@ -1,18 +1,21 @@
 <div class="logo1">
-    <img src="sicredi1.png" alt="SicrediLogo" class="logo">
+    <img src="sicredi1.png" alt="SicrediLogo" class="logo" width="400px">
   </div>
   
   <section class="principal">
     <div class="">
       <form action="">
+        <div class= "Logintext">
         <h1>Login</h1>
+        </div>
         <div class="formulario__conteudo">
             <input type="text" placeholder="CPF/CNPJ" required>
         </div>
         <div class="formulario__conteudo">
             <input type="password" placeholder="Senha" required>
         </div>
-        <button class="w-100 btn btn-lg btn-primary mb-2 fw-bold" type="button" onclick="window.location.href='home.html'">Acessar conta</button>
+        <button class="w-100 btn btn-lg btn-primary mb-2 fw-bold" type="button" (click)="logar()" >Acessar conta</button>
+        <button class="w-100 btn btn-lg btn-primary mb-2 fw-bold" type="button" (click)="Cadastrar()" >Criar Conta</button>
     </form>
     </div>
   </section>

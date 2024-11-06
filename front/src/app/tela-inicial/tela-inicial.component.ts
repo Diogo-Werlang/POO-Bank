@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tela-inicial',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './tela-inicial.component.css'
 })
 export class TelaInicialComponent {
-
+  
 }
